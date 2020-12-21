@@ -1,10 +1,18 @@
 # These are the "Try It Yourself" problems from Python Crash Course
 
 # 2-1
+message_1 = "This is the first problem I solved!"
+print(message_1)
 
+# 2-2
+message_2 = "I am going to change message_2..."
+print(message_2)
+
+message_2 = "to print to be message_3?"
+print(message_2)
 
 # 2-3
-name = "eric"
+name = "Cory"
 personal_message = f"Hello {name.title()}, would you like to learn some Python today?"
 print(personal_message)
 
