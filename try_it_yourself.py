@@ -29,27 +29,27 @@
 # print(sentence)
 
 # 2-7
-text = "    The woods are lovely, dark and deep,    \n"
+# text = "    The woods are lovely, dark and deep,    \n"
 # remove new line and all space
-print(text.strip())
+# print(text.strip())
 
 # remove only spaces
-print(text.strip(" "))
+# print(text.strip(" "))
 
 # remove everything to the left
-print(text.lstrip())
+# print(text.lstrip())
 
 # remove everything to the right
-print(text.rstrip())
+# print(text.rstrip())
 
 # remove "d" character either end of the string
-message1 = "decided"
-print(message1.strip('d'))
+# message1 = "decided"
+# print(message1.strip('d'))
 
 # remove specfic characters from a string
-message2 = ",.,...!?!?.Nice...:"
-sanitized_message = message2.strip(".,!?:()")
-print(sanitized_message)
+# message2 = ",.,...!?!?.Nice...:"
+# sanitized_message = message2.strip(".,!?:()")
+# print(sanitized_message)
 
 # 2-8
 # addition = 4+4
