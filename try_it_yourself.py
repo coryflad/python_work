@@ -68,3 +68,15 @@
 # num_sentence = f"{num_name}'s favorite number is {favorite_num}!"
 # print(num_sentence)
 
+# 3-1
+# names = ['mom', 'becky', 'stanley the dog', 'gary']
+# print(names[2].title())
+
+#3-2
+# simple_message = f"Hello there {names[2].title()}. How are you doing today?"
+# print(simple_message)
+
+# 3-3
+# time_of_day = ['morning', 'afternoon', 'evening']
+# detailed_message = f"Hello {names[2].title()}. How are you doing this {time_of_day[1]}?"
+# print(detailed_message)
