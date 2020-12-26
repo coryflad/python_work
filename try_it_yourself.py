@@ -80,3 +80,55 @@
 # time_of_day = ['morning', 'afternoon', 'evening']
 # detailed_message = f"Hello {names[2].title()}. How are you doing this {time_of_day[1]}?"
 # print(detailed_message)
+
+# 3-4 
+# guest_list = ['becky', 'mom', 'jerk the dog']
+# print(guest_list)
+# print(f"\nHi {guest_list[0].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[1].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[2].title()}, would you like to have dinner with me?")
+
+# 3-5
+# print(f"\nI, {guest_list[2].title()}, will not be able to make dinner tonight.")
+# del guest_list[2]
+# guest_list.insert(2, 'fernando alonso')
+# print(guest_list)
+# print(f"\nHi {guest_list[0].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[1].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[2].title()}, would you like to have dinner with me?")
+
+# 3-6
+# print(f"These are the people currently invited for dinner: \n{guest_list[0].title()} \n{guest_list[1].title()} \n{guest_list[2].title()}")
+# guest_list.insert(0, 'larry david')
+# guest_list.insert(3, 'gracie the dog')
+# guest_list.append('martha nester')
+# print(guest_list)
+
+# print(f"\nHi {guest_list[0].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[1].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[2].title()}, would you like to have dinner with me?")
+# print(f"Hi {guest_list[3].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[4].title()}, would you like to have dinner with me?") 
+# print(f"Hi {guest_list[5].title()}, would you like to have dinner with me?")
+
+# 3-7
+# print(f"I'm sorry guys, the table will only seat two people")
+
+# uninvite_0 = guest_list.pop(0)
+# print(f"I'm sorry I have to uninvite you {uninvite_0.title()}.")
+# print(guest_list)
+
+# uninvite_1 = guest_list.pop()
+# print(f"I'm sorry I have to uninvite you {uninvite_1.title()}.")
+# print(guest_list)
+
+# uninvite_2 = guest_list.pop()
+# print(f"I'm sorry I have to uninvite you {uninvite_2.title()}.")
+# print(guest_list)
+
+# uninvite_3 = guest_list.pop()
+# print(f"I'm sorry I have to uninvite you {uninvite_3.title()}.")
+# print(guest_list)
+
+
+
